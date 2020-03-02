@@ -1,5 +1,24 @@
+
+#logo{
+text-align: center;
+padding-top: 10%;
+}
+.paragraphone{
+    text-align: center;
+    font-weight: lighter;
+    color:peru;
+}
+#dashboard{
+    color: gold;
+    text-align: center;
+    font-family: serif;
+    font-size: x-large;
+    font-style: oblique;
+}
+=======
 .abud{
   text-align: center;
 padding-left: : 73%;
 color: tomato;
 }
+
