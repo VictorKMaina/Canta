@@ -14,3 +14,21 @@ padding-top: 10%;
     font-size: x-large;
     font-style: oblique;
 }
+#userequests{
+    display: none;
+}
+#progress{
+    display: none;
+}
+#usereviews{
+    display: none;
+}
+.dash{
+    display: none;
+}
+.one{
+    cursor: pointer;
+}
+.prog{
+    cursor: pointer;
+}
