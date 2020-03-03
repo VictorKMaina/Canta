@@ -1,18 +1,9 @@
-$(document).ready(function () {
 
-    $("#dashboard").click(function () {
-        $(".dash").slideDown();
+$(document).ready(function(){
+  $("#HIP").click(function(){
+    $(".Akiba").show();
 
-        $(".one").click(function() {
-            $("#userequests").toggle();
-        });
-        $(".prog").click(function() {
-            $("#progress").toggle();
-        });
-        $(".three").click(function(){
-        $("#usereviews").toggle();
-        
-    });
-
-    });
+  });
 });
+
+
