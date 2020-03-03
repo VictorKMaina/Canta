@@ -15,10 +15,22 @@ padding-top: 10%;
     font-size: x-large;
     font-style: oblique;
 }
-=======
-.abud{
-  text-align: center;
-padding-left: : 73%;
-color: tomato;
+#userequests{
+    display: none;
 }
-
+#progress{
+    display: none;
+}
+#usereviews{
+    display: none;
+}
+.dash{
+    display: none;
+}
+.one{
+    cursor: pointer;
+    color: lightgreen;
+}
+.prog{
+    cursor: pointer;
+}
