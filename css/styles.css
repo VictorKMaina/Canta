@@ -1,0 +1,38 @@
+#main {
+  background-image: url("../assets/guitarist.jpg");
+  background-size: cover;
+  background-position: 10% 90%;
+  height: 70vh;
+}
+#main button {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+[alt="logo"] {
+  max-width: 200px;
+}
+.bg-purple {
+  background: #948df5;
+  color: rgb(255, 255, 255);
+}
+.bg-mint {
+  background: #b6fadc;
+  color: white;
+  box-shadow: 1px 1px 5px black;
+}
+.bg-light-mint {
+  background: #b6fafa;
+  color: white;
+}
+.bg-blue {
+  color: white;
+  background: #b6d4fa;
+}
+.bg-light-purple {
+  background: #dcb6fa;
+  color: white;
+}
+.bg-pink {
+  background-color: #fab6f6;
+  color: rgb(85, 85, 85);
+}

@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canta - Home</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>Welcome to Canta</title>
 </head>
+
 <body>
-  
+  <nav class="navbar position-fixed w-100 navbar-expand-sm bg-transparent">
+    <form action="#" class="form-inline w-50">
+      <input type="text" class="form-control" placeholder="Search">
+      <button class="btn btn-success ml-3" type="button"> Search</button>
+    </form>
+    <ul class="navbar-nav w-50 justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Location</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container-fluid d-flex flex-wrap align-content-center text-dark" id="main">
+    <div class="jumbotron mx-auto bg-transparent">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="assets/logo-dark.png" class="d-block" alt="logo">
+        </div>
+        <div class="col-sm-6 d-flex flex-wrap align-content-center justify-content-end text-right">
+          <p class="display-4">Get a musician for hire.</p>
+          <button class="btn bg-pink m-2 pl-4 pr-4"><span class="h5">Log In</span></button>
+          <button class="btn bg-purple m-2 pl-4 pr-4"><span class="h5">Sign Up</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </body>
+
 </html>
