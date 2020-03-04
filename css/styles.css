@@ -8,29 +8,13 @@ padding-top: 10%;
     font-weight: lighter;
     color:peru;
 }
-#dashboard{
-    color: gold;
+/* #dashboard{ */
+    /* color: gold; */
+    /* text-align: center; */
+    /* font-family: serif; */
+    /* font-size: x-large; */
+    /* font-style: oblique; */
+/* } */
+#center{
     text-align: center;
-    font-family: serif;
-    font-size: x-large;
-    font-style: oblique;
-}
-#userequests{
-    display: none;
-}
-#progress{
-    display: none;
-}
-#usereviews{
-    display: none;
-}
-.dash{
-    display: none;
-}
-.one{
-    cursor: pointer;
-    color: lightgreen;
-}
-.prog{
-    cursor: pointer;
 }
