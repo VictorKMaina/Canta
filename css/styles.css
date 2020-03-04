@@ -1,8 +1,9 @@
 #main {
   background-image: url("../assets/guitarist.jpg");
   background-size: cover;
-  background-position: 10% 90%;
-  height: 70vh;
+  background-position: bottom;
+  height: 90vh;
+  z-index: -1;
 }
 #main button {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
@@ -12,13 +13,12 @@
   max-width: 200px;
 }
 .bg-dark-green {
-  background: #286955;
+  background: #1a8c73;
   color: rgb(255, 255, 255);
 }
 .bg-mint {
   background: #85e7bc;
   color: rgb(85, 85, 85);
-  box-shadow: 1px 1px 5px black;
 }
 .bg-light-mint {
   background: #b6fafa;
@@ -38,4 +38,19 @@
 }
 [alt=logo]{
   mix-blend-mode: color-burn;
+}
+#gradient {
+  background: linear-gradient(#00000000, #0e6150);
+}
+#gradient2 {
+  background: linear-gradient(#0e6150, #00000000);
+}
+.lead {
+  font-size: 1.8em;
+}
+#main2, #test{
+  background-image: url("../assets/pattern.jpg");
+  background-size: 300px;
+  background-blend-mode: multiply;
+  background-position: top;
 }

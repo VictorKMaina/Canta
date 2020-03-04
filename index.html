@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar position-fixed w-100 navbar-expand-sm bg-transparent pl-5 pr-5 pt-4 align-content-center">
+  <nav class="navbar position-fixed w-100 navbar-expand-sm bg-transparent pl-5 pr-5 pt-4 align-content-center" style="z-index: 100;">
     <form action="#" class="form-inline w-50">
       <input type="text" class="form-control" placeholder="Search">
       <button class="btn bg-dark-green ml-3" type="button"> Search</button>
@@ -30,8 +30,8 @@
       </li>
     </ul>
   </nav>
-  <div class="container-fluid d-flex flex-wrap align-content-center text-dark" id="main">
-    <div class="jumbotron mx-auto bg-transparent">
+  <div class="container-fluid d-flex flex-wrap align-content-center text-dark p-0 position-relative" id="main">
+    <div class="jumbotron mx-auto bg-transparent p-5">
       <div class="row">
         <div class="col-sm-6">
           <img src="assets/logo2.png" class="d-block" alt="logo">
@@ -43,8 +43,21 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid mx-auto position-absolute p-0" id="gradient" style="bottom: 0px; height: 200px;">
+    </div>
   </div>
-
+  </div>
+  <div id="main2" class="container-fluid position-relative pb-5 pt-5 p-0 bg-dark-green" style="z-index: 1;">
+    <div class="container-fluid position-absolute mx-auto bg-dark-green" id="gradient2" style="top: 0px; height: 500px; z-index: -1;">
+    </div>
+    <div class="container pt-5">
+      <h1 class="display-4 pb-3">What if you could hire someone to serenade your spouse, partner, or crush?</h1>
+      <p class="lead font-weight-bold mt-5">At Canta, that's what we do for you. Using our website, you can find a
+        musician to perform for your loved ones or even on your event.</p>
+      <p class="display-3 mt-5 pt-5 text-center font-italic">It's simple.</p>
+      
+    </div>
+  </div>
 
 </body>
 
