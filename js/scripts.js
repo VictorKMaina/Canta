@@ -1,8 +1,6 @@
 $(document).ready(function () {
 
-    $("#dashboard").click(function () {
-        $(".dash").slideDown();
-
+   
         $(".one").click(function() {
             $("#userequests").toggle();
         });
@@ -14,5 +12,5 @@ $(document).ready(function () {
         
     })
 
-    });
+    
 });
