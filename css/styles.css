@@ -1,132 +1,170 @@
+<<<<<<< HEAD
 .abud{
   text-align: center;
   padding-left: 73%;
   color: tomato;
-}
-.col-md-5{
-  padding-left: 17%;
-}
-#ad{
-  text-align: center;
-  font-family: sans-serif;
-  color: #bab6fa;
-}
-#qw{
-  text-align: center;
-  font-family: sans-serif;
-  color: #bab6fa;
-}
-#marley{
-  display: none;
-}
-#letter{
-  cursor: pointer;
-}
-#kitu{
-  display: none;
-}
-#fom{
-  display:none ;
-}
-.wilder{
-  display: none;
-}
-.abuu{
-  cursor: pointer;
-  color: blue;
-}
-.abuu:hover{
-  text-decoration: underline;
-}
-.aguero{
-  display: none;
-}
-.abo{
-  cursor: pointer;
-  color: blue;
-}
-.abo:hover{
-  text-decoration: underline;
-}
-.silva{
-  display: none;
-}
-.semi{
-  cursor: pointer;
-  color: blue;
-}
-.semi:hover{
-  text-decoration: underline;
-}
-.wilderr{
-  display: none;
-}
-.abuuu{
-  cursor: pointer;
-}
-.agueroo{
-  display: none;
-}
-.aboo{
-  cursor: pointer;
-}
-.silvaa{
-  display: none;
-}
-.semii{
-  cursor: pointer;
-}
-.wilderrr{
-  display: none;
-}
-.abuuuu{
-  cursor: pointer;
-}
-.aguerooo{
-  display: none;
-}
-.abooo{
-  cursor: pointer;
-}
-.silvaaa{
-  display: none;
-}
-.semiii{
-  cursor: pointer;
-}
-.wilderrrr{
-  display: none;
-}
-.abuuuuu{
-  cursor: pointer;
-}
-.agueroooo{
-  display: none;
-}
-.aboooo{
-  cursor: pointer;
-}
-.silvaaaa{
-  display: none;
-}
-.semiiii{
-  cursor: pointer;
-}
-.wilderrrrb{
-  display: none;
-}
-.abuuuuub{
-  cursor: pointer;
-}
-.agueroooob{
-  display: none;
-}
-.aboooob{
-  cursor: pointer;
-}
-.silvaaaab{
-  display: none;
-}
-.semiiiib{
-  cursor: pointer;
-}
+  =======
+
+  #logo{
+    text-align: center;
+    padding-top: 10%;
+  }
+  .paragraphone{
+    text-align: center;
+    font-weight: lighter;
+    color:peru;
+  }
+  #dashboard{
+    color: gold;
+    text-align: center;
+    font-family: serif;
+    font-size: x-large;
+    font-style: oblique;
+  }
+  #userequests{
+    display: none;
+  }
+  #progress{
+    display: none;
+  }
+  #usereviews{
+    display: none;
+  }
+  .dash{
+    display: none;
+  }
+  .one{
+    cursor: pointer;
+    color: lightgreen;
+  }
+  .prog{
+    cursor: pointer;
+    >>>>>>> 049ff38b73a2ded4bc636ca738d33a47e295f9cb
+  }
+  .col-md-5{
+    padding-left: 17%;
+  }
+  #ad{
+    text-align: center;
+    font-family: sans-serif;
+    color: #bab6fa;
+  }
+  #qw{
+    text-align: center;
+    font-family: sans-serif;
+    color: #bab6fa;
+  }
+  #marley{
+    display: none;
+  }
+  #letter{
+    cursor: pointer;
+  }
+  #kitu{
+    display: none;
+  }
+  #fom{
+    display:none ;
+  }
+  .wilder{
+    display: none;
+  }
+  .abuu{
+    cursor: pointer;
+    color: blue;
+  }
+  .abuu:hover{
+    text-decoration: underline;
+  }
+  .aguero{
+    display: none;
+  }
+  .abo{
+    cursor: pointer;
+    color: blue;
+  }
+  .abo:hover{
+    text-decoration: underline;
+  }
+  .silva{
+    display: none;
+  }
+  .semi{
+    cursor: pointer;
+    color: blue;
+  }
+  .semi:hover{
+    text-decoration: underline;
+  }
+  .wilderr{
+    display: none;
+  }
+  .abuuu{
+    cursor: pointer;
+  }
+  .agueroo{
+    display: none;
+  }
+  .aboo{
+    cursor: pointer;
+  }
+  .silvaa{
+    display: none;
+  }
+  .semii{
+    cursor: pointer;
+  }
+  .wilderrr{
+    display: none;
+  }
+  .abuuuu{
+    cursor: pointer;
+  }
+  .aguerooo{
+    display: none;
+  }
+  .abooo{
+    cursor: pointer;
+  }
+  .silvaaa{
+    display: none;
+  }
+  .semiii{
+    cursor: pointer;
+  }
+  .wilderrrr{
+    display: none;
+  }
+  .abuuuuu{
+    cursor: pointer;
+  }
+  .agueroooo{
+    display: none;
+  }
+  .aboooo{
+    cursor: pointer;
+  }
+  .silvaaaa{
+    display: none;
+  }
+  .semiiii{
+    cursor: pointer;
+  }
+  .wilderrrrb{
+    display: none;
+  }
+  .abuuuuub{
+    cursor: pointer;
+  }
+  .agueroooob{
+    display: none;
+  }
+  .aboooob{
+    cursor: pointer;
+  }
+  .silvaaaab{
+    display: none;
+  }
+  .semiiiib{
+    cursor: pointer;
+  }
