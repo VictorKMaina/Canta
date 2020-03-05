@@ -140,7 +140,9 @@ $(document).ready(function() {
         });
         $(".three").click(function(){
         $("#usereviews").toggle();
-        
-    })
-
+        });
+        $(".trend").click(function(){
+            $("#TRENDING").toggle();
+        });
 });
+    
