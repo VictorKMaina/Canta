@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+
   $("#letter").click(function(){
     $("#fom").show();
     $("#marley").toggle();
@@ -129,6 +130,17 @@ $(document).ready(function() {
     $(".semiiiib").toggle()
     $(".silvaaaab").toggle();
   });
+
+   
+        $(".one").click(function() {
+            $("#userequests").toggle();
+        });
+        $(".prog").click(function() {
+            $("#progress").toggle();
+        });
+        $(".three").click(function(){
+        $("#usereviews").toggle();
+        
+    })
+
 });
-
-
