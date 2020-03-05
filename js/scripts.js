@@ -1,5 +1,5 @@
-$(document).ready(function () {
 
+$(document).ready(function(){
    
         $(".one").click(function() {
             $("#userequests").toggle();
@@ -17,4 +17,3 @@ $(document).ready(function () {
 });
 
     
-
