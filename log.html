@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title>CANTA LOG IN </title>
-<link rel="stylesheet" href="css/styles.css">
+<head>
+  <title>CANTA LOG IN </title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
 <body>
-<div class="log">
-
-    <div class="imag-mic"></div>
-      <img src="images/log.png" alt="photo of a logo">
-        
-        <h1> Welcome to Canta</h1>
-  <form>
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me</input>
-    </label>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-
-  </form>
-</div>
+  <div id="background"></div>
+  <div class="h-100 w-100 d-flex flex-wrap align-content-center justify-content-center">
+    <div class="log">
+      <h1 class="display-4 text-white mb-4">Welcome to Canta</h1>
+      <form>
+        <input class="btn btn-light" type="text"name="username"placeholder="Enter Username"><br>
+        <input class="btn btn-light" type="password" placeholder="Enter Password" name="password"><br>
+        <input class="btn btn-primary" type="submit" name="submit" value="Login"><br>
+        <div class="text-center">
+          <a class="text-white" href="forgotPass.html">Forgot Password</a>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

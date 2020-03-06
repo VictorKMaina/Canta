@@ -20,8 +20,6 @@ Canta is a website that allows musicians all over the world to get hired for the
 * jQuery
 * markdown
 
-## SERVICE PROVIDED
-
 
 
 ## CONTACT INFORMATION
