@@ -1,10 +1,9 @@
-<<<<<<< HEAD
+
 .abud{
   text-align: center;
   padding-left: 73%;
   color: tomato;
-  =======
-
+}
   #logo{
     text-align: center;
     padding-top: 10%;
@@ -39,7 +38,6 @@
   }
   .prog{
     cursor: pointer;
-    >>>>>>> 049ff38b73a2ded4bc636ca738d33a47e295f9cb
   }
   .col-md-5{
     padding-left: 17%;
