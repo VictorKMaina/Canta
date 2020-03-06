@@ -1,9 +1,13 @@
 #main {
   background-image: url("../assets/guitarist.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center bottom;
+  /* background-attachment: fixed; */
   height: 90vh;
   z-index: -1;
+}
+body {
+  overflow-x: hidden;
 }
 #main button {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
@@ -48,9 +52,63 @@
 .lead {
   font-size: 1.8em;
 }
-#main2, #test{
+#main2, #test, #about, #contact{
   background-image: url("../assets/pattern.jpg");
+  background-attachment: fixed;
   background-size: 300px;
   background-blend-mode: multiply;
   background-position: top;
+}
+#main2 .container-fluid {
+  max-width: 1440px;
+}
+
+#about {
+  height: 100%;
+}
+
+#contact {
+  
+}
+
+#about .col-2 p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13em;
+  /* letter-spacing: 10px; */
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+#contact .col-2 p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 8em;
+  /* letter-spacing: 10px; */
+  margin-top: 550px;
+  transform: rotate(270deg);
+  mix-blend-mode: overlay;
+}
+
+#about .row .w-100 {
+  background-color: #00000066;
+  padding: 40px;
+  height: 100%;
+  border-radius: 15px;
+  max-width: 1000px;
+}
+
+iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border: 2px solid rgb(85, 85, 85);
+  border-radius: 15px;
+}
+
+#contact{
+  background-color: #1a8c73;
+  background-blend-mode: multiply;
+}
+table {
+  border-radius: 6px;
 }
