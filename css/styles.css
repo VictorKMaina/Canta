@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a2aeb4d5704bb12ce206257b6c5cea89b4bac4bd
 .abud{
   text-align: center;
   padding-left: 73%;
   color: tomato;
+<<<<<<< HEAD
 }
+=======
+
+
+>>>>>>> a2aeb4d5704bb12ce206257b6c5cea89b4bac4bd
   #logo{
     text-align: center;
     padding-top: 10%;
@@ -166,3 +174,28 @@
   .semiiiib{
     cursor: pointer;
   }
+
+#logo{
+text-align: center;
+padding-top: 10%;
+}
+.paragraphon{
+    text-align: center;
+    font-weight: lighter;
+    color:peru;
+}
+/* #dashboard{ */
+    /* color: gold; */
+    /* text-align: center; */
+    /* font-family: serif; */
+    /* font-size: x-large; */
+    /* font-style: oblique; */
+/* } */
+#center{
+    text-align: center;
+}
+
+body{
+    
+    background-image: url(logo1.jpg);
+}
