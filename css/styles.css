@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding: 0px;
+  box-sizing: border-box;
+  outline:none;
+  text-decoration:none;
+  font-family: sans-serif;
+}
+body{
+   background:url("../images/sing.jpg") no-repeat center center;
+   background-size:cover;
+   width:100%;
+   height:100vh;
+}
+.check
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:500px;
+  height:350px;
+}
+.check .top-wrapper{
+  width:100%;
+  height:100%;
+  display: flex;
+}
+.check .top-wrapper .singing-info{
+  width:45%;
+  background: #ffffffdd;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+  position:relative;
+}
+ .check .top-wrapper .singing-info images{
+  width:240px;
+  margin-top:30px;
+  margin-left:5px;
+}
+.check .top-wrapper .singing-info .content{
+  text-align:center;
+  margin-top:25px;
+  color:darkgreen;
+  text-transform:uppercase;
+}
+.check .top-wrapper .singing-info .content h2{
+ font-size: 20px;
+ line-height: 20px;
+  letter-spacing: 3px;
+}
+.check .top-wrapper .singing-info .content p{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.singing-info {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  justify-content: center;
+}
+[alt="logo"] {
+  height: 60%;
+  width: 80%;
+  padding: 15px;
+}
+.check .top-wrapper .checkout-form{
+  width:55%;
+  background: #ffffffdd;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  padding:50px 30px;
+}
+.check .top-wrapper .checkout-form p{
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-transform:uppercase;
+}
+.check .top-wrapper .checkout-form .section{
+  margin-bottom: 15px;
+}
+.check .top-wrapper .checkout-form .section input{
+  width:90%;
+  padding:10px;
+  border:1px solid black;
+  border-radius: 6px;
+}
+
+#card-holder, #card-number {
+  width: 95%;
+}
+
+.check .top-wrapper .checkout-form .section input[type="text"]:focus{
+  border-color:orange ;
+}
+ .check .top-wrapper .checkout-form .section.last-section{
+   display:flex;
+   justify-content: space-between;
+ }
+.check .top-wrapper .checkout-form .section.last-section.item{
+    width:48%;
+  }
+.check .top-wrapper .checkout-form .btn{
+  background:black;
+  padding:10px;
+  border-radius:25px;
+  text-align:center;
+  margin-top:25px;
+}
+.check .top-wrapper .checkout-form .btn a{
+  color:white;
+  letter-spacing:5px;
+  display:block;
+}
+
+input[placeholder="Expiry Date"]{
+  margin-right: 5px;
+}
